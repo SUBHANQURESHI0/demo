@@ -49,15 +49,15 @@ export default function AdminCustomersPage() {
           <table className="w-full min-w-[960px] text-left text-sm">
             <thead>
               <tr className="border-b border-zinc-200/90 bg-zinc-50/80">
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Customer ID
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Name</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Email</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Orders</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Tier</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">LTV</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Action</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Name</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Email</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Orders</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Tier</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">LTV</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Action</th>
               </tr>
             </thead>
             <tbody>

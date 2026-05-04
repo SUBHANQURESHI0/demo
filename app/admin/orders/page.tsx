@@ -57,22 +57,22 @@ export default function AdminOrdersPage() {
           <table className="w-full min-w-[800px] text-left text-sm">
             <thead>
               <tr className="border-b border-zinc-200/90 bg-zinc-50/80">
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Order ID
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Customer
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Placed
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Channel
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Total
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Status
                 </th>
               </tr>

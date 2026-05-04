@@ -24,19 +24,19 @@ export default function AdminProductsPage() {
           <table className="w-full min-w-[900px] text-left text-sm">
             <thead>
               <tr className="border-b border-zinc-200/90 bg-zinc-50/80">
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   <span className="inline-flex items-center gap-1.5">
                     Name
                     <ArrowUpDown className="h-3 w-3 opacity-60" />
                   </span>
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">
                   Category
                 </th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Price</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Stock</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Status</th>
-                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-zinc-500">Action</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Price</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Stock</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Status</th>
+                <th className="px-5 py-3 text-[11px] font-semibold uppercase tracking-widest text-zinc-500">Action</th>
               </tr>
             </thead>
             <tbody>

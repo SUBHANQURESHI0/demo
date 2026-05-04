@@ -19,7 +19,7 @@ export function Navbar() {
   return (
     <nav
       id="site-navbar"
-      className="sticky top-0 z-50 w-full border-b border-black/[0.06] bg-white/80 backdrop-blur-xl supports-[backdrop-filter]:bg-white/70"
+      className="sticky top-0 z-50 w-full border-b border-black/6 bg-white/80 backdrop-blur-xl supports-backdrop-filter:bg-white/70"
     >
       <div className="relative mx-auto flex h-[52px] max-w-[1440px] items-center justify-between px-4 sm:px-6 lg:px-10">
         <Link

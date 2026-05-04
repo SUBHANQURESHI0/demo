@@ -41,7 +41,7 @@ export function CartDrawer({ itemCount }: { itemCount: number }) {
             <ul className="space-y-1">
               {items.map((item) => (
                 <li key={item.id} className="flex gap-4 border-b border-neutral-200/80 py-4 last:border-0">
-                  <div className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-lg bg-neutral-100 ring-1 ring-black/[0.04]">
+                  <div className="relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-lg bg-neutral-100 ring-1 ring-black/4">
                     <Image src={item.image} alt={item.name} fill sizes="72px" className="object-cover" />
                   </div>
                   <div className="flex min-w-0 flex-1 flex-col justify-between">
